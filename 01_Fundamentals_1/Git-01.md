@@ -28,7 +28,7 @@ https://medium.com/markdown-monster-blog/getting-images-into-markdown-documents-
 
 
 ### Overcome challenges
-Getting more comfortable with GitHub, pushing and pulling files from both peers and myself. Lots of subject Jargon that now have meaning in context.
+Getting more comfortable with GitHub, pushing and pulling files from both peers and myself. Lots of subject Jargon that now have meaning in context. Getting more familiar with Markdown and it's syntax.
 
 ### Results
 ![Give permission to your peers to access your Repository](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_collaborators.png)
