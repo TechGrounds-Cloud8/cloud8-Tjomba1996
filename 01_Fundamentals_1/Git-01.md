@@ -15,6 +15,7 @@ Fork = Forking is to take the source code from an open source software program a
  - Make a GitHub account
  - Make a dipository
  - Give permission to your peers to access your Repository
+ - Push code into Repository
  - Pull / Clone repository from peer
  
  - Add repository for Portfolio
@@ -30,4 +31,6 @@ https://medium.com/markdown-monster-blog/getting-images-into-markdown-documents-
 Getting more comfortable with GitHub, pushing and pulling files from both peers and myself. Lots of subject Jargon that now have meaning in context.
 
 ### Results
-![image](00_includes/SS_collaborators.png)
+![Give permission to your peers to access your Repository](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_collaborators.png)
+![Push code into Repository](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Push_File.png)
+![Pull / Clone repository from peer](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Clone_Peers_Repo.png)
