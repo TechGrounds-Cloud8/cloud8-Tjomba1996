@@ -31,6 +31,8 @@ https://medium.com/markdown-monster-blog/getting-images-into-markdown-documents-
 Getting more comfortable with GitHub, pushing and pulling files from both peers and myself. Lots of subject Jargon that now have meaning in context. Getting more familiar with Markdown and it's syntax.
 
 ### Results
-![Give permission to your peers to access your Repository](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_collaborators.png)
-![Push code into Repository](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Push_File.png)
-![Pull / Clone repository from peer](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Clone_Peers_Repo.png)
+![Give permission to your peers to access your Repository](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_collaborators.png "Give permission to your peers to access your repository")
+
+![Push code into Repository](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Push_File.png "Push code into repository")
+
+![Pull / Clone repository from peer](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Clone_Peers_Repo.png "Pull / Clone repository from peer")
