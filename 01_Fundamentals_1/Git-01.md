@@ -25,4 +25,4 @@ https://medium.com/markdown-monster-blog/getting-images-into-markdown-documents-
 Getting more comfortable with GitHub, pushing and pulling files from both peers and myself. Lots of subject Jargon that now have meaning in context.
 
 ### Results
-![image](..00_includes/SS_collaborators.png)
+![image](00_includes/SS_collaborators.png)
