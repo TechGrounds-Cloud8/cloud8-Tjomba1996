@@ -13,9 +13,9 @@ Fork = Forking is to take the source code from an open source software program a
 
 ## Exercise
  - Make a GitHub account
- - Make a dipository
- - Give permission to your peers to access your Repository
- - Push code into Repository
+ - Make a repository
+ - Give permission to your peers to access your repository
+ - Push code into repository
  - Pull / Clone repository from peer
  
  - Add repository for Portfolio
