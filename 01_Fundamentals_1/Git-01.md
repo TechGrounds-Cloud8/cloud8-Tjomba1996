@@ -2,9 +2,13 @@
 
 ## Key terminology
 Repository = a place to storage files
+
 Push / Pull = To push code, is to have the remote access code be updated with the code that one has on their local machine. To pull code, is to get it from the remote access
+
 platform to the local machine.
+
 Merge = to combine.
+
 Fork = Forking is to take the source code from an open source software program and develop an entirely new program.
 
 ## Exercise
