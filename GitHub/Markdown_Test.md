@@ -8,4 +8,4 @@ Use ** to enclose text to make it **bold**
 
 Use *** to enclose text to make it ***italic/bold***
 
-Use \"![Custome name of image](imagePath/imagename.png "text that displays when user hover over image")" to add an image that is in your repository(with corresponding path)
+Use "![Custome name of image](imagePath/imagename.png "text that displays when user hover over image")" to add an image that is in your repository(with corresponding path)
