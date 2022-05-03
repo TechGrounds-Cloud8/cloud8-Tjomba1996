@@ -13,6 +13,9 @@ https://nl.wikipedia.org/wiki/Wysiwyg
 
 https://en.wikipedia.org/wiki/WYSIWYM
 
+https://zeroesandones.medium.com/how-to-commit-and-push-your-changes-to-your-github-repository-in-vscode-77a7a3d7dd02
+
+
 
 
 ### Overcome challanges
