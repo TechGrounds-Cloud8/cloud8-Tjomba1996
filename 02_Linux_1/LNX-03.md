@@ -4,7 +4,7 @@
 - echo "text" = Display text in terminal
 - 
 ## Key commandlines
-- > use this to redirect output
+- \> use this to redirect output
 - < use this to redirect input
 
 [Write a list of key terminology with a short description. To prevent duplication you can reference to previous excersizes.]
