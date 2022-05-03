@@ -17,12 +17,9 @@ https://zeroesandones.medium.com/how-to-commit-and-push-your-changes-to-your-git
 
 https://community.atlassian.com/t5/Trello-questions/Markdown-syntax-causing-issues/qaq-p/666843
 
-
-
-
-
-### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+### Overcome challenges
+Learned how to push and pull through text editor: VScode. Learned simple syntax like bold, italic, headers and how to ignore syntax. Learned how to add images to Markdown files.
 
 ### Results
-[Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+
+![Screenshot of Textfile](00_includes\SS_Markdown_testFile.png "Custom Markdown Document")
