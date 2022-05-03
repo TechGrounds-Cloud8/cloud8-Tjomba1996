@@ -17,6 +17,8 @@ https://zeroesandones.medium.com/how-to-commit-and-push-your-changes-to-your-git
 
 https://community.atlassian.com/t5/Trello-questions/Markdown-syntax-causing-issues/qaq-p/666843
 
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 ### Overcome challenges
 Learned how to push and pull through text editor: VScode. Learned simple syntax like bold, italic, headers and how to ignore syntax. Learned how to add images to Markdown files.
 
