@@ -4,12 +4,14 @@
 - echo "text" = Display text in terminal
 - 
 ## Key commandlines
-- \> use this to redirect output
-- < use this to redirect input
+- \> = use this to redirect output
+- <  = use this to redirect input
+- grep "filter" file = Use this to display lines that contains the given filter
 
-[Write a list of key terminology with a short description. To prevent duplication you can reference to previous excersizes.]
 ## Exercise
-- Use echo command and output a sentence containing "techgrounds" to an existing textfile
+- Use echo command and output a sentence containing "techgrounds" to an existing textfile with atleast 2 lines
+- Use command to write contents of text file to terminal, but use a filter so only the lines with "techgrounds" are displayed
+- Use same command as previous exercise, but redirect the output to a new "techgrounds.txt" file
 
 ### Sources
 https://www.educative.io/edpresso/how-to-do-input-output-redirection-in-linux
@@ -21,7 +23,8 @@ https://ryanstutorials.net/linuxtutorial/piping.php
 
 
 ### Overcome challenges
-[Give a short description of your challanges you encountered, and how you solved them.]
-
+- Learned how to add text to an existing file with echo command
+- Learned how to redirect both input and output
+- 
 ### Results
 [Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
