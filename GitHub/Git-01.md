@@ -26,6 +26,8 @@ https://www.alpharithms.com/how-to-create-a-folder-in-github-repos-463022/
 
 https://medium.com/markdown-monster-blog/getting-images-into-markdown-documents-and-weblog-posts-with-markdown-monster-9ec6f353d8ec
 
+https://debug.to/1088/how-to-change-folder-name-in-github
+
 
 ### Overcome challenges
 Getting more comfortable with GitHub, pushing and pulling files from both peers and myself. Lots of subject Jargon that now have meaning in context. Getting more familiar with Markdown and it's syntax.
