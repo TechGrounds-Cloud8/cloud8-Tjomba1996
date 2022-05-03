@@ -22,4 +22,4 @@ https://quick-adviser.com/how-do-i-set-ssh-key-permissions-in-windows/
 - navigating through directory using PowerShell
 
 ### Results
-![Screenshot of PowerShell: whomai](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Whoami.png "PowerShell SSH-connection to Linux environment")
+![Screenshot of PowerShell: whoami](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Whoami.png "PowerShell SSH-connection to Linux environment")
