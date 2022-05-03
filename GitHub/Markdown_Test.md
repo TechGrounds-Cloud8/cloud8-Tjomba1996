@@ -1,13 +1,11 @@
-# This is a header/title
+# Use one "#" for a header
+## Use two "#" to make smaller
+### use three "#" to make it even smaller
 
-use * to enclose text to make it *italic*
+Use * to enclose text to make it *italic*
 
-use ** to enclose text to make it **bold**
+Use ** to enclose text to make it **bold**
 
-use *** to enclose text to make it ***italic/bold***
+Use *** to enclose text to make it ***italic/bold***
 
-
-
-##
-
-###
+Use "![Custome name of image](imagePath/imagename.png "text that displays when user hover over image")" to add an image that is in your repository(with corresponding path)
