@@ -5,10 +5,15 @@
 - WYSIWYM = "What you see is what you mean". Markdown is a example of a WYSIWYM solution. The emphasis lies on the information giving and the exact layout is interpretted by
 by the rendering party. 
 
-
 ## Exercise
+- Make a document with a chosen text editor
+
 ### Sources
-[List your sources you used for solving the exercise]
+https://nl.wikipedia.org/wiki/Wysiwyg
+
+https://en.wikipedia.org/wiki/WYSIWYM
+
+
 
 ### Overcome challanges
 [Give a short description of your challanges you encountered, and how you solved them.]
