@@ -15,6 +15,9 @@ https://en.wikipedia.org/wiki/WYSIWYM
 
 https://zeroesandones.medium.com/how-to-commit-and-push-your-changes-to-your-github-repository-in-vscode-77a7a3d7dd02
 
+https://community.atlassian.com/t5/Trello-questions/Markdown-syntax-causing-issues/qaq-p/666843
+
+
 
 
 
