@@ -22,4 +22,4 @@ Learned how to push and pull through text editor: VScode. Learned simple syntax 
 
 ### Results
 
-![Screenshot of Textfile](00_includes\SS_Markdown_testFile.png "Custom Markdown Document")
+![Screenshot of Textfile](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Markdown_testFile.png "Custom Markdown Document")
