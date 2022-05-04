@@ -40,20 +40,20 @@ https://linuxize.com/post/linux-chown-command/
 New text file = "TextFile5.txt"
 File's owner is "tom" and file's group is "tom".
 File's permissions are:
- - Owner can read and write
- - Group can read
- - Others can read
+ - Owner can read and write(indicated by the 1st "R" and "W")
+ - Group can read and write(indicated by the 2nd "R" and "W")
+ - Others can read(indicated by the 3rd "R")
 
-![Permissions listed](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Linux_FilePermissions_Owner.png "Listing of all permissions in current Directory")
+![Permissions listed](../00_includes/LNX-05/SS_Linux_FilePermissions_Owner.png "Listing of all permissions in current Directory")
 
-Permissions are changed so only the owner can **read**, **write** and **execute**.
+Permissions are changed so only the owner can **read** and **write**, indicated by "RW".
 
-![Permissions changed and file can be read.](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Linux_FilePermissions_Removed.png "  Permissions are changed so owner can read, write and execute the file")
+![Permissions changed and file can be read.](../00_includes/LNX-05/SS_Linux_FilePermissions_Removed.png "  Permissions are changed so owner can read, write and execute the file")
 
-Change owner of the file to "tjomba". Now we can not read the file anymore, except when we use "sudo".
+Change owner of the file to "Tjomba" and given the owner the permission to execute(indicated by the "X"). Now we can not read the file anymore, except when we use "sudo".
 
-![Owner changed](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Linux_FilePermissions_ChangedOwner.png "Owner Changed, user can't read except when using sudo")
+![Owner changed](../00_includes/LNX-05/SS_Linux_FilePermissions_ChangedOwner.png "Owner Changed, user can't read except when using sudo")
 
 Changed file group to "gamers".
 
-![Group Changed](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Linux_FilePermissions_ChangedGroup.png "Group is changed from tom to gamers")
+![Group Changed](../00_includes/LNX-05/SS_Linux_FilePermissions_ChangedGroup.png "Group is changed from tom to gamers")

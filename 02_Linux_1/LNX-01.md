@@ -18,8 +18,8 @@ https://blog.netwrix.com/2018/04/18/how-to-manage-file-system-acls-with-powershe
 https://quick-adviser.com/how-do-i-set-ssh-key-permissions-in-windows/
 
 ### Overcome challenges
-- Connected through openSSH 
-- navigating through directory using PowerShell
+- Connected to a ubuntu VM through openSSH 
+- Navigating through directory using PowerShell
 
 ### Results
-![Screenshot of PowerShell: whoami](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Whoami.png "PowerShell SSH-connection to Linux environment")
+![Screenshot of PowerShell: whoami](../00_includes/LNX-01/SS_Whoami.png "PowerShell SSH-connection to Linux environment")

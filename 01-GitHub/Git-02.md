@@ -20,8 +20,10 @@ https://community.atlassian.com/t5/Trello-questions/Markdown-syntax-causing-issu
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ### Overcome challenges
-Learned how to push and pull through text editor: VScode. Learned simple syntax like bold, italic, headers and how to ignore syntax. Learned how to add images to Markdown files.
+ - Learned how to push and pull through text editor: VScode
+ - Learned simple syntax like bold, italic, headers and how to ignore syntax.
+ - Learned how to add images to Markdown files.
 
 ### Results
 
-![Screenshot of Textfile](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Markdown_testFile.png "Custom Markdown Document")
+![Screenshot of Textfile](../00_includes/SS_Markdown_testFile.png "Custom Markdown Document")

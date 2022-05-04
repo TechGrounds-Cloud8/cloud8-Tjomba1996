@@ -34,10 +34,14 @@ https://askubuntu.com/questions/383057/how-to-decode-the-hash-password-in-etc-sh
 - See what permissions a user has and what group a user is in
 
 ### Results
-New user: Tjomba
+- New user: Tjomba
 
-![Users](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Users_Linux.png "All users on the system")
+![Users](../00_includes/LNX-04/SS_Users_Linux.png "All users on the system")
 
-![Passwords](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Passwords_Linux.png "All users with passwords")
+- This list also gives us all the users, but now with the passwords. These passwords are **hashed**, which means the user's password is taken and scrambled with a special key, known by the system.
 
-![Groups](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Groups_Linux.png "All groups shown, using \"*less /etc/group*\"")
+![Passwords](../00_includes/LNX-04/SS_Passwords_Linux.png "All users with passwords")
+
+- Here are all the groups shown, with the users next to it.
+
+![Groups](../00_includes/LNX-04/SS_Groups_Linux.png "All groups shown, using \"*less /etc/group*\"")

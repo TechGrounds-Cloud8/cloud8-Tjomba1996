@@ -28,4 +28,8 @@ https://stackoverflow.com/questions/6207573/how-to-append-output-to-the-end-of-a
 - Learned how to redirect both input and output
 
 ### Results
-![](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Working_with_Text(CLI).png "Using command echo to add text to an existing file and using grep to filter output into a new text file")
+- TestFile.txt is an existing file with 2 sentences.
+- Use **echo >>** to add text to an existing file. Then use **grep** to filter lines containing *techgrounds* and display.
+- After that we **grep** and change the output, to put the filtered line into a new text file called **techground.txt**.
+- This new file now only contains the line with the *techground* in it.
+![](../00_includes/LNX-03/SS_Working_with_Text(CLI).png "Using command echo to add text to an existing file and using grep to filter output into a new text file")

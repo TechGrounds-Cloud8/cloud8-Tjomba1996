@@ -29,4 +29,4 @@ https://linuxconfig.org/linux-commands-cheat-sheet
 - Navigate with both relative and absolute paths
 
 ### Results
-![](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Files_and_Directories.png "Screenshot of Linux environment using commandlines to change/make Directories, textfiles and navigating through directories.")
+![](../00_includes/LNX-02/SS_Files_and_Directories.png "Using commandlines to change/make Directories, textfiles and navigating through directories")
