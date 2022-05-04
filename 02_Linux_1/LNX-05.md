@@ -39,5 +39,10 @@ File's permissions are:
  - Owner can read and write
  - Group can read
  - Others can read
-![](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Linux_FilePermissions_Owner.png "Listing of all permissions in current Directory")
+
+![Permissions listed](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Linux_FilePermissions_Owner.png "Listing of all permissions in current Directory")
+
+Permissions are changed so only the owner can **read**, **write** and **execute**.
+
+![Permissions changed and file can be read.](https://user-images.githubusercontent.com/104758578/166717357-4cc7cb84-38b3-4e60-8082-0ad4f9f54b8c.png"Permissions are changed so owner can read, write and execute the file")
 
