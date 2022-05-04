@@ -35,5 +35,9 @@ https://kb.iu.edu/d/abdb#:~:text=To%20view%20the%20permissions%20for,in%20a%20di
 ### Results
 New text file = "TextFile5.txt"
 File's owner is "tom" and file's group is "tom".
-
+File's permissions are:
+ - Owner can read and write
+ - Group can read
+ - Others can read
 ![](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Linux_FilePermissions_Owner.png "Listing of all permissions in current Directory")
+
