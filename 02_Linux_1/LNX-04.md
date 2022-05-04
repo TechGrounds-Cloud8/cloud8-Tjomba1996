@@ -33,8 +33,9 @@ https://www.cyberciti.biz/faq/where-are-the-passwords-of-the-users-located-in-li
 
 ### Results
 New user: Tjomba
+
 ![Users](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Users_Linux.png "All users on the system")
 
-![passwords](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Passwords_Linux.png "All users with passwords")
+![Passwords](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Passwords_Linux.png "All users with passwords")
 
-![Groups](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Groups_Linux.png "All groups shown, using "*less /etc/group*")
+![Groups](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Groups_Linux.png "All groups shown, using "*less /etc/group*"")
