@@ -31,7 +31,7 @@ https://quehow.com/how-to-install-and-use-telnet-in-ubuntu/3629.html
 - Started telnet, checked it's status.
 - PID=6571
 - Memory = 904.0K
-![SS of running telnet with info](../00_includes/SS_TelNet_Running%26PID.png "Telnet has started and the mainPID=6571")
+![SS of running telnet with info](../00_includes/LNX-06/SS_TelNet_Running%26PID.png "Telnet has started and the mainPID=6571")
 
 - Stopped process
-![SS of inactive telnet](../00_includes/SS_Kill_Daemon.png "Server is inactive after killall command")
+![SS of inactive telnet](../00_includes/LNX-06/SS_Kill_Daemon.png "Server is inactive after killall command")
