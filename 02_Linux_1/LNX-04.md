@@ -26,6 +26,8 @@ https://kb.iu.edu/d/abdb#:~:text=To%20change%20file%20and%20directory,%2C%20writ
 
 https://www.cyberciti.biz/faq/where-are-the-passwords-of-the-users-located-in-linux/#:~:text=The%20%2Fetc%2Fpasswd%20is%20the,is%20one%20entry%20per%20line.
 
+https://askubuntu.com/questions/383057/how-to-decode-the-hash-password-in-etc-shadow
+
 ### Overcome challenges
 - See where all the users are located
 - See where all the groups are located
