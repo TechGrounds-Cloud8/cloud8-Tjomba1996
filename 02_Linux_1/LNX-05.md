@@ -55,4 +55,5 @@ Change owner of the file to "tjomba". Now we can not read the file anymore, exce
 ![Owner changed](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Linux_FilePermissions_ChangedOwner.png "Owner Changed, user can't read except when using sudo")
 
 Changed file group to "gamers".
-![Group Changed](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Linux_FilePermissions_ChangedGroup.png "Group is changed from **tom** to **gamers**")
+
+![Group Changed](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Linux_FilePermissions_ChangedGroup.png "Group is changed from tom to gamers")
