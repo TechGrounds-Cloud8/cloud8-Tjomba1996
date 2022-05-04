@@ -1,14 +1,14 @@
 # Users and groups
 
 ## Key Commandlines
-Sudo = using this command prior to using any other command, gives you temporary "root permission" in that command.
-useradd = add a new user
-useradd -G "group-name" "username" = Add a new user to a group
-passwd "username" = add/change a password for a user
-usermod -aG sudo "username" = Make user a sudo user
-less /etc/group = List all groups on system
-more /etc/passwd = List all users on system
-sudo usermod -a -G "groupname" "username" = Add an existing user to an existing group
+- Sudo = using this command prior to using any other command, gives you temporary "root permission" in that command.
+- useradd = add a new user
+- useradd -G "group-name" "username" = Add a new user to a group
+- passwd "username" = add/change a password for a user
+- usermod -aG sudo "username" = Make user a sudo user
+- less /etc/group = List all groups on system
+- more /etc/passwd = List all users on system
+- sudo usermod -a -G "groupname" "username" = Add an existing user to an existing group
 
 ## Exercise
 - Create a new user in your VM
