@@ -51,3 +51,7 @@ Permissions are changed so only the owner can **read**, **write** and **execute*
 Change owner of the file to "tjomba". Now we can not read the file anymore, except when we use "sudo".
 
 ![Owner changed](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Linux_FilePermissions_ChangedOwner.png "Owner Changed, user can't read except when using sudo")
+
+Changed group of file to "Gamers".
+
+![Group changed]("Group of file changed to **gamers**")
