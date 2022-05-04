@@ -4,6 +4,8 @@
 - ls -lah = Use this command to view the permissions for all files in a directory
 - chmod = (change mode)Use this command to change permissions
 ![Cheatsheet](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_PermissionsCheatSheet.png "Cheatsheet for **chmod** command")
+- chown "user" = (change owner)Use this command to change owner
+- chown :"group" = Use this command to change group
 
 ## Key terminology
 - Permissions:
@@ -52,6 +54,5 @@ Change owner of the file to "tjomba". Now we can not read the file anymore, exce
 
 ![Owner changed](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Linux_FilePermissions_ChangedOwner.png "Owner Changed, user can't read except when using sudo")
 
-Changed group of file to "Gamers".
-
-![Group changed]("Group of file changed to **gamers**")
+Changed file group to "gamers".
+![Group Changed](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Linux_FilePermissions_ChangedGroup.png "Group is changed from **tom** to **gamers**")
