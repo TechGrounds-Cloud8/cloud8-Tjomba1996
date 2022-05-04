@@ -1,7 +1,9 @@
 # File Permissions
 
 ## Key Commandlines
--ls -lah = Use this command to view the permissions for all files in a directory
+- ls -lah = Use this command to view the permissions for all files in a directory
+- chmod = (change mode)Use this command to change permissions
+![Cheatsheet](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_PermissionsCheatSheet.png "Cheatsheet for **chmod** command")
 
 ## Key terminology
 - Permissions:
@@ -28,7 +30,7 @@ https://kb.iu.edu/d/abdb#:~:text=To%20view%20the%20permissions%20for,in%20a%20di
 
 
 ### Overcome challenges
-[Give a short description of your challanges you encountered, and how you solved them.]
+- Know how to see and modify permissions for specific files/directories
 
 ### Results
-[Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+
