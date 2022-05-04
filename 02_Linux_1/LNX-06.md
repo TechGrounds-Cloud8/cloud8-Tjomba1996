@@ -1,5 +1,4 @@
-# [Subject]
-[Give a short summary of the subject matter.]
+# Processes
 
 ## Key terminology
 - telnet = Old network protocol
@@ -21,8 +20,6 @@
 https://itsfoss.com/linux-daemons/
 
 https://quehow.com/how-to-install-and-use-telnet-in-ubuntu/3629.html
-
-
 
 ### Overcome challenges
 - Learned to use terminal within VScode
