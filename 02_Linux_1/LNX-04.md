@@ -38,4 +38,4 @@ New user: Tjomba
 
 ![Passwords](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Passwords_Linux.png "All users with passwords")
 
-![Groups](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Groups_Linux.png "All groups shown, using "*less /etc/group*"")
+![Groups](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Groups_Linux.png "All groups shown, using #"*less /etc/group*"")
