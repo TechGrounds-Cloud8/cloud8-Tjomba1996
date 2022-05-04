@@ -10,6 +10,7 @@
   - W: Write permission granted
   - X: Execute permission granted
 
+
   - Permissions are divided into 3 groups with the initial character indicating file type: - RWX --- ---
     - First set is the owners permissions
     - Second set is the groups permissions
