@@ -10,9 +10,9 @@
   - W: Write permission granted
   - X: Execute permission granted
   - Permissions are divided into 3 groups with the initial character indicationg file type: - RWX --- ---
-   - First set is the owners permissions
-   - Second set is the groups permissions
-   - Third set is for the "world" or other users, outside group
+    - First set is the owners permissions
+    - Second set is the groups permissions
+    - Third set is for the "world" or other users, outside group
 
 ## Exercise
 - Create a text file and make a long listing to view the file's permission. Who's the file's owner and group?
