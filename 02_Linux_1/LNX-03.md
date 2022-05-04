@@ -2,11 +2,11 @@
 
 ## Key commandlines
 - echo "text" = Display text in terminal
-- 
-## Key commandlines
-- \> = use this to redirect output
-- <  = use this to redirect input
+- \> = Use this to redirect output
+- <  = Use this to redirect input
+- echo "text" >> = Use this to add text to a text file, instead of replacing it
 - grep "filter" file = Use this to display lines that contains the given filter
+
 
 ## Exercise
 - Use echo command and output a sentence containing "techgrounds" to an existing textfile with atleast 2 lines
@@ -20,11 +20,12 @@ https://www.geeksforgeeks.org/filters-in-linux/
 
 https://ryanstutorials.net/linuxtutorial/piping.php
 
+https://stackoverflow.com/questions/6207573/how-to-append-output-to-the-end-of-a-text-file
 
 
 ### Overcome challenges
 - Learned how to add text to an existing file with echo command
 - Learned how to redirect both input and output
-- 
+
 ### Results
-[Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+![](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Working_with_Text(CLI).png "Using command echo to add text to an existing file and using grep to filter output into a new text file.)
