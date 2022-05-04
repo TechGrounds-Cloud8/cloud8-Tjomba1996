@@ -8,7 +8,7 @@ Sudo = using this command prior to using any other command, gives you temporary 
   - New user is part of admin group
   - Should have a password
   - Should be able to use "sudo"
-- Locate th efiles that store users, passwords and groups, to see if your new user's data is there
+- Locate the files that store users, passwords and groups, to see if your new user's data is there
 
 ### Sources
 [List your sources you used for solving the exercise]
