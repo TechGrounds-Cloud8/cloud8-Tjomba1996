@@ -49,3 +49,5 @@ Permissions are changed so only the owner can **read**, **write** and **execute*
 ![Permissions changed and file can be read.](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Linux_FilePermissions_Removed.png "  Permissions are changed so owner can read, write and execute the file")
 
 Change owner of the file to "tjomba". Now we can not read the file anymore, except when we use "sudo".
+
+![Owner changed](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Linux_FilePermissions_ChangedOwner.png "Owner Changed, user can't read except when using sudo")
