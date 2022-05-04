@@ -8,6 +8,7 @@
 - touch = Create a new, empty file, or update the modified time of an existing one
 - nano/vim "filename" = Edit file in Nano or Vim text editor
 - cat "filename" = View contents of file
+- rm "filename" = Remove a file
 
 ## KeyTerms
 - Absolute path = An absolute path is defined as by specifying the location of a file or directory from the root directory
