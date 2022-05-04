@@ -3,7 +3,8 @@
 ## Key Commandlines
 - ls -lah = Use this command to view the permissions for all files in a directory
 - chmod = (change mode)Use this command to change permissions
-![Cheatsheet](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_PermissionsCheatSheet.png "Cheatsheet for **chmod** command")
+
+![Cheatsheet](../00_includes/LNX-05/SS_PermissionsCheatSheet.png "Cheatsheet for **chmod** command")
 - chown "user" = (change owner)Use this command to change owner
 - chown :"group" = Use this command to change group
 
