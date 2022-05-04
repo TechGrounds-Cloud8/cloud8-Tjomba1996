@@ -44,5 +44,5 @@ File's permissions are:
 
 Permissions are changed so only the owner can **read**, **write** and **execute**.
 
-![Permissions changed and file can be read.](https://user-images.githubusercontent.com/104758578/166717357-4cc7cb84-38b3-4e60-8082-0ad4f9f54b8c.png "Permissions are changed so owner can read, write and execute the file")
+![Permissions changed and file can be read.]( "Permissions are changed so owner can read, write and execute the file")
 
