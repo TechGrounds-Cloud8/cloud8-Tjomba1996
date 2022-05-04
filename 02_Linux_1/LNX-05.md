@@ -44,5 +44,5 @@ File's permissions are:
 
 Permissions are changed so only the owner can **read**, **write** and **execute**.
 
-![Permissions changed and file can be read.](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Linux_FilePermissions_Removed.png" Permissions are changed so owner can read, write and execute the file")
+![Permissions changed and file can be read.](https://github.com/TechGrounds-Cloud8/cloud8-Tjomba1996/blob/main/00_includes/SS_Linux_FilePermissions_Removed.png"  Permissions are changed so owner can read, write and execute the file")
 
