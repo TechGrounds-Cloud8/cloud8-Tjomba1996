@@ -12,7 +12,7 @@ Linux uses files and folders, like you’re used to with any OS you’ve used. N
 - ls = List all directories/files in current directory
 - pwd = Show present working directory
 - touch = Create a new, empty file, or update the modified time of an existing one
-- nano/vim "filename" = Edit file in Nano or Vim text editor
+- nano/vim "filename" = Edit file (and create one if there is none with that name) in Nano or Vim text editor
 - cat "filename" = View contents of file
 - rm "filename" = Remove a file
 

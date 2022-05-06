@@ -11,9 +11,9 @@ The standard output (stdout) is the terminal. The command ‘echo hello’ will 
 
 ## Key commandlines
 - echo "text" = Display text in terminal
-- \> = Use this to redirect output
+- \> = Use this to redirect output and overwrite
 - <  = Use this to redirect input
-- echo "text" >> = Use this to add text to a text file, instead of replacing it
+- echo "text" >> = Use this to redirect and add instead of overwriting
 - grep "filter" file = Use this to display lines that contains the given filter
 
 
