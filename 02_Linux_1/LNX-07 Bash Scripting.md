@@ -1,4 +1,7 @@
 # Bash scripting
+The default command line interface in Linux is called a Bash shell.
+A Bash script is a series of commands written in a text file. You can execute multiple commands in a row by just executing the script.
+Additional logic can be applied with the use of variables, conditions, and loops among others.
 
 ## Key terminology
 - Append = add something to the end of a written document

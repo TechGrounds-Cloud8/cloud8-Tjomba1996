@@ -1,4 +1,6 @@
 # Processes
+Processes in Linux can be divided into three categories: Daemons, Services, and Programs.
+A daemon runs in the background and is non-interactive. A Service responds to requests from programs. A service may be interactive.
 
 ## Key terminology
 - telnet = Old network protocol

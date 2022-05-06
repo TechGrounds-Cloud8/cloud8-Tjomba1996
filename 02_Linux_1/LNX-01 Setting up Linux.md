@@ -1,7 +1,15 @@
 # Setting up Linux
+Linux, like Windows or MacOS, is an operating system. It manages the communication between the physical device (hardware) and all computer programs (software).
+Linux is the most popular operating system for servers, because it is lightweight, stable, highly customizable, and free to use. Due to the open source licensing, everyone is allowed to build and distribute new versions of Linux.
 
 ## Key terminology
-
+- SSH = Secure Shell, is a network connection protocol
+- public key = File that is used a "password" to connect remotely
+- Linux = Operating system(like Windows and MacOs)
+- VM = Virtual machine
+- Ubuntu = Open source Debian-based Linux distribution
+- Distribution(Distro) = A package of software
+- Open source = Meaning everyone can work see the code and work on it
 
 ## Exercise
 - Make a SSH-connection
@@ -22,4 +30,8 @@ https://quick-adviser.com/how-do-i-set-ssh-key-permissions-in-windows/
 - Navigating through directory using PowerShell
 
 ### Results
+- Using the following command we can access our VM:
+
+ssh -i "C:\Users\Tjomba\Desktop\FILES\Techgrounds\Week_1\access_key.pem" tom@18.196.32.244 -p 55214
+
 ![Screenshot of PowerShell: whoami](../00_includes/LNX-01/SS_Whoami.png "PowerShell SSH-connection to Linux environment")

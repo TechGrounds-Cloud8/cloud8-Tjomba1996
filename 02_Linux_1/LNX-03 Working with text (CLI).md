@@ -1,4 +1,13 @@
 # Working with text (CLI)
+Every command in Linux has a standard input and output.
+The standard input (stdin) is the keyboard. If I run ‘mkdir myfolder’, the mkdir command will know what folder to create, because I typed ‘myfolder’.
+The standard output (stdout) is the terminal. The command ‘echo hello’ will write ‘hello’ in the terminal.
+
+## Key Terminology
+- CLI = Command Line Interface, refering to the terminal of choice
+- input = By default(stdin), what is used a source for certain command
+- ouput = By default(stdout), what is used as destination for command
+- Redirection = Changing the input or output to something different
 
 ## Key commandlines
 - echo "text" = Display text in terminal

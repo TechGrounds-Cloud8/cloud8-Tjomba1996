@@ -1,9 +1,10 @@
 # Markdown
+Using Word as a text editor and saving as a ".word" document can sometimes cause some issues. This is due to the fact that word adds layout code to the file, so it can interpret what the document is supposed to look like. Sometimes it's beneficial to use a different solution for a text file. This is why **Markdown** was introduced. This way you can use a "raw" text file, that is also still readable by the user, and with simple syntax, can be giving layout(to be interpreted by the system your using).
 
 ## Key terminology
+- Markdown = Is a text-to-html conversion tool, MarkUp-Language
 - WYSIWYG = "What you see is what you get". Word is an example of a WYSIWYG programm, as it shows you exactly what the document is gonna look like, while you're editing it
-- WYSIWYM = "What you see is what you mean". Markdown is a example of a WYSIWYM solution. The emphasis lies on the information giving and the exact layout is interpretted by
-by the rendering party. 
+- WYSIWYM = "What you see is what you mean". Markdown is a example of a WYSIWYM solution. The emphasis lies on the information giving and the exact layout is interpreted by the rendering party. 
 
 ## Exercise
 - Make a document with a chosen text editor
@@ -26,4 +27,4 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ### Results
 
-![Screenshot of Textfile](../00_includes/SS_Markdown_testFile.png "Custom Markdown Document")
+![Screenshot of Textfile](../00_includes/Git-02/SS_Markdown_testFile.png "Custom Markdown Document")

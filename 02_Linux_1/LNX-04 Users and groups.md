@@ -1,4 +1,10 @@
 # Users and groups
+Linux has users, similar to accounts on Windows and MacOS. Every user has their own home directory. Users can also be part of groups.
+There is a special user called ‘root’. Root is allowed to do anything.
+
+
+## Key Terminology
+- Root =  The user name/account that by default has access to all commands and files on a Linux system
 
 ## Key Commandlines
 - Sudo = using this command prior to using any other command, gives you temporary "root permission" in that command.

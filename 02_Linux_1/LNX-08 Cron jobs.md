@@ -42,7 +42,7 @@ https://phoenixnap.com/kb/set-up-cron-job-linux
 
 - Using this script: ![Script DiskSpace](../00_includes/LNX-08/SS_DiskSpace_Script.png "Script to check DiskSpace and send results to DiskSpace.txt(in /var/log)")
 - Added the following cron job to crontab:
-"* * * * 7 /home/tom/techgrounds/scripts/DiskSpace.sh"
+"0 0 * * 7 /home/tom/techgrounds/scripts/DiskSpace.sh"
 - This cronjob now update the available diskspace every Sunday.
 
 ![Available Diskspace](../00_includes/LNX-08/SS_DiskSpace_Available.png "Results of the script")
