@@ -5,6 +5,8 @@ These kinds of jobs can be automated using Cron jobs.
 
 ## Key terminology
 - Cron Jobs = Processes that are automatically executed on a scheduled basis
+- date = Use this to display date and time
+- df = Use this to display 
 
 ## Key Commandlines
 - a b c d e /"path"/Script.sh output = This is the standard form of a cron job
@@ -46,3 +48,4 @@ https://phoenixnap.com/kb/set-up-cron-job-linux
 - This cronjob now update the available diskspace every Sunday.
 
 ![Available Diskspace](../00_includes/LNX-08/SS_DiskSpace_Available.png "Results of the script")
+![](../00_includes/Testfoto.png)
