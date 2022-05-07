@@ -48,4 +48,3 @@ https://phoenixnap.com/kb/set-up-cron-job-linux
 - This cronjob now update the available diskspace every Sunday.
 
 ![Available Diskspace](../00_includes/LNX-08/SS_DiskSpace_Available.png "Results of the script")
-![](../00_includes/Testfoto.png)
