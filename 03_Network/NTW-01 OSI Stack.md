@@ -41,7 +41,12 @@ While the ISO model is useful for troubleshooting, it is not entirely the Within
 [Difference between models](https://www.guru99.com/difference-tcp-ip-vs-osi-model.html#:~:text=OSI%20refers%20to%20Open%20Systems,both%20connection%2Doriented%20and%20connectionless.)
 
 ### Results
-ISO is useful to standardize hardware(Router, switch, motherboard), whereas using TCP/IP is more helpful when establashing a connection between 2 different types systems.
+For a description of the corresponding models, check the summary at the top.
+
+Usecases:
+- ISO: ISO is useful to standardize hardware(Router, switch, motherboard).
+- TCP/IP: Using TCP/IP is more helpful when establashing a connection between 2 different types systems.
+
 ![Layers of ISO vs TCP/IP](../00_includes/NTW-01/SS_Difference_Diagram.png "Layers of ISO vs TCP/IP")
 
 ![Key differences between ISO vs TCP/IP](../00_includes/NTW-01/SS_KeyDifference.png "Key differences between ISO vs TCP/IP")
