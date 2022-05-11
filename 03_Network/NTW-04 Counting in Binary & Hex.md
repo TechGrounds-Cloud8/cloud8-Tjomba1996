@@ -7,6 +7,8 @@ Now when a system needs to store data, is might be more interesting to add symbo
 - Binary = System with 2 symbols(1 and 0)
 - Decimal = System with 10 symbols(0-9)
 - Hexadecimal = System with 16 symbols(0-9,a-f)
+- Bit = 
+- Byte =
 
 ## Exercise
 - Translate from Decimal to Binary
