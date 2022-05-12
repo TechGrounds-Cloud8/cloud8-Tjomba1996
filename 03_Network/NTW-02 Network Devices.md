@@ -6,10 +6,14 @@ To have more than 2 system connected to eachother, you need to have a network. T
 - Analog: Using signals/information represented by a continously variable physical quantity
 - Digital: Using signals/information represented by series of 1's and 0's(positive or negative)
 - MAC address: Media Access Control address. Hardware identifier that uniquely identifies each device on a network. Refered to as Burned-in-, Ethernet hardware-, hardware- or physical address
-- Router: A router is a device that connects two or more packet-switched networks or subnetworks
-- Switch: High-speed device that receives data packets and redirects them to their destination on a LAN
-- Repeaters: Device that amplifies(analog) or regenerates(digital) the signal to extend the transmission distance.
-- Access point: A device, such as a router, that wireless devices can use to connect to the network
+
+## Devices
+- Router = A router is a device that connects two or more packet-switched networks or subnetworks
+- Switch = High-speed device that receives data packets and redirects them to their destination on a LAN
+- Repeaters = Device that amplifies(analog) or regenerates(digital) the signal to extend the transmission distance.
+- Access point = A device, such as a router, that wireless devices can use to connect to the network
+- NAT Gateway = Device used to make private networks able to connect to devices outside LAN
+- Internet Gateway = 
 
 ## Exercise
 - Describe the functions of common networking devices
@@ -28,7 +32,9 @@ To have more than 2 system connected to eachother, you need to have a network. T
 
 [MAC](https://bluecatnetworks.com/blog/mac-address-vs-ip-address-whats-the-difference/#:~:text=A%20Media%20Access%20Control%20address,interface%20controller%20(NIC)%20card.)
 
+[NAT Gateway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html)
 
+[Internet Gateway](https://www.gartner.com/en/information-technology/glossary/gateway)
 
 ### Overcome challenges
 - More knowledgable about networking and the devices that are present to make that happen.
