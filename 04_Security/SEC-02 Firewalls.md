@@ -19,7 +19,7 @@ Most of the Linux distro’s ship with default firewall tools that can be used t
 - Show that the firewall works
 
 ### Sources
-[Configuring Firewall on Linux](https://www.geeksforgeeks.org/how-to-setup-firewall-in-linux/)
+[Configuring Firewall on Linux](https://www.transip.nl/knowledgebase/artikel/1937-uncomplicated-firewall-ufw-in-ubuntu/)
 
 
 ### Overcome challenges
@@ -32,6 +32,7 @@ Most of the Linux distro’s ship with default firewall tools that can be used t
 - Now using the IP of our SSH connection and the port provided, we can connect to the webserver using a browser on the local machine.
 ![Webserver Running](../00_includes/SEC-02/SS_ServerRunning.png)
 
-- Using iptables we can see and configure the current rules for traffic. Using the following command, the current rules are shown.
-> sudo iptables -L
-- 
+- Using **uwf** we can configure the current rules for traffic. Using the following command, this service gets enabled.
+> sudo ufw enable
+- Using the following command to enable logging, this helps with troubleshooting in case it is needed.
+> sudo ufw logging on

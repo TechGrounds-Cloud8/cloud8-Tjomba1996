@@ -13,7 +13,7 @@ To have more than 2 system connected to eachother, you need to have a network. T
 - Repeaters = Device that amplifies(analog) or regenerates(digital) the signal to extend the transmission distance.
 - Access point = A device, such as a router, that wireless devices can use to connect to the network
 - NAT Gateway = Device used to make private networks able to connect to devices outside LAN
-- Internet Gateway = 
+- Internet Gateway = Node on a network that connects two different networks that use different protocols for communicating
 
 ## Exercise
 - Describe the functions of common networking devices
@@ -34,7 +34,7 @@ To have more than 2 system connected to eachother, you need to have a network. T
 
 [NAT Gateway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html)
 
-[Internet Gateway](https://www.gartner.com/en/information-technology/glossary/gateway)
+[Internet Gateway](https://www.whatismypublicip.com/blog/what-is-an-internet-gateway/)
 
 ### Overcome challenges
 - More knowledgable about networking and the devices that are present to make that happen.
