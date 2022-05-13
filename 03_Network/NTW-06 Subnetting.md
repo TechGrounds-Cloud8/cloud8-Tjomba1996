@@ -32,7 +32,7 @@ For the private networks, the 192.168.---.--- range is chosen, because the Subne
 
 2. Second Subnet(Private, with internet access)
 - The /26 Subnet Mask is chosen, as this gives us 62 possible hosts(30 needed).
-- To get access to the internet, we need a NAT Gateway(to change the private IP to a Public IP) and we need an Internet Gateway, to give us access to the WAN. Both Gateways have a public IP.
+- To get access to the internet, we need a NAT Gateway(to change the private IP to a Public IP) and we need an Internet Gateway, to give us access to the WAN.
 
 3. Third Subnet(Public)
 - Here, a /29 Subnet Mask is used, as it gives us exactly enough possible hosts. Because public IP's are very expensive to obtain, the chosen IP range is very tight. If there's going to be more hosts, the Subnet Mask has to be changed.
