@@ -5,6 +5,8 @@ Throughout history humanity has come up with many ciphers to encode information.
 
 ## Key terminology
 - Cipher = A system of writing that prevents most people from understanding the message
+- Encryption = Altering a message with a certain algorithm
+- Symmetric encryption = A way of encryption, where the **key** to decrypting and encrypting is the same for both the sender and the reciever of the message
 
 
 ## Exercise
