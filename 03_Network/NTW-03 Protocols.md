@@ -61,6 +61,6 @@ Below is a list of some of the protocols, in corresponding layer.
 
 - To submit your own protocols, they need to be approved by by the IETF, which is an open organisation that develops and promotes voluntary internet standards. The organisation doesn't have any formal members, but relies on volunteers. If you want a protocol to be approved, is has to be reviewed by the IETF(Internet Engineering Task Force).
 
-- Installed Wiresharkon on local machine. Intercepted the following packet and captured the information of it.
+- Installed Wireshark on on local machine. Intercepted the following packet and captured the information of it.
 - You can see the **Source Port** of the packet, the **destination Port**, the **protocol** that it uses and the actual data that is in the packet.
 ![Wireshark SS](../00_includes/NTW-03/SS_Wireshark.png "Screenshot of wireshark")

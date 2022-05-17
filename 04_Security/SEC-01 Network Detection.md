@@ -3,7 +3,6 @@ The ensure you are a running a safe virtual environment, you need to be able to 
 
 ## Key terminology
 
-
 ## Excercise
 - Scan the network of your Linux machine using nmap and show your findings.
 - Open wireshark in your local machine. Analyse what happens when you open an internet browser.
