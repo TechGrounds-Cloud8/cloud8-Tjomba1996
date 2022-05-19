@@ -6,6 +6,8 @@ While preventing as many intrusions as you possibly can, is good baseline, intru
 - RTO = Recovery Time Objective; How long does it take to be back online
 - IDS = Intrusion Detection System; technology used for detecting vulnerability exploits against a target application or computer
 - IPS = Intrusion Prevention System; is a network security/threat prevention technology that examines network traffic flows to detect and prevent vulnerability exploits
+- DRP = Disaster Recovery Plan; Set of actions to take to ensure that lost data is restored in case of a disaster
+- System Hardening = The process of reducing the vulnerability of a system, by implementing a collection of tools, techniques and best practices. This, to try and reduce the system's attack surface.
 
 ## Exercise
 - A Company makes daily backups of their database. The database is automatically recovered when a failure happens using the most recent available backup. The recovery happens on a different physical machine than the original database, and the entire process takes about 15 minutes. What is the RPO of the database?

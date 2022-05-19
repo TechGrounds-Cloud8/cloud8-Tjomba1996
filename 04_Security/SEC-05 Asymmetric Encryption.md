@@ -1,5 +1,5 @@
 # Asymmetric Encryption
-While sharing the key to an encrypted message in a public channel of some sorts, ensures that the recipient can decrypt the message, it also allows everyone else to use that key to decrypt that message. So how would you go about encrypting a message, so only the recipient is allowed to read the message.
+While sharing the key to an encrypted message in a public channel of some sorts, ensures that the recipient can decrypt the message, it also allows everyone else to use that key to decrypt that message. So how would you go about encrypting a message, so only the recipient is allowed to read the message?
 
 ## Key terminology
 - Key pair = Set of public and private keys, that enable decryption and/or encryption:

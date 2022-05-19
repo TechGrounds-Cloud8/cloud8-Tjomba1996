@@ -2,6 +2,7 @@
 The ensure you are a running a safe virtual environment, you need to be able to analyse the connections made. Wireshark is a tool that can be used to analyse on the connections that are being made by your machine.
 
 ## Key terminology
+- nmap = A network mapper that scans a system and understand what weaknesses exist that a hacker could potentially exploit
 
 ## Excercise
 - Scan the network of your Linux machine using nmap and show your findings.

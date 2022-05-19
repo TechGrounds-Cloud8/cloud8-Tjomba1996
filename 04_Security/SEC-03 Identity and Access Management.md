@@ -34,4 +34,4 @@ There's a few ways to ensure the safety of one's account details. Lately compani
 
 - MFA is used to add more layers of protection by adding more than 1 factor of authentication, so one would need both a password and a Digital app for example. This increases the protection against cyber attacks by "adding more doors" so to say.
 
-- The **Principle of Least Privilege** dictates that a user should **only** have the privileges that it needs to complete it's task. If a subject does not need an access right, it should have it. This improves security by limiting the possibilities of what can happen, and not giving access to subjects that are either malevolent or not educated well enough to operate on a certain privilege.
+- The **Principle of Least Privilege** dictates that a user should **only** have the privileges that it needs to complete it's task. If a subject does not need an access right, it should not have it. This improves security by limiting the possibilities of what can happen, and not giving access to subjects that are either malevolent or not educated well enough to operate on a certain privilege.
