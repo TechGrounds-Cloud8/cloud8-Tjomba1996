@@ -43,3 +43,12 @@ You are not allowed to use any private messages or other communication channels 
 
 - The shortcomings of trying to make an encrypted message, using a symmetric key are(among others):
     - There's no way to send something to someone in private, so all the information that is sent to the person via a public route, is visible to anyone that would be interested in that message. And because all the information to decrypt the supposedly encrypted message, is also shared through the same route, it effectively means there's no reason to encrypt the message in the first place.
+
+# Extra
+- While symmetric encryption is generally a bad solution to send info over a single public channel, there is a method to do it securely. It involves using asymmetric encryption for the key that is used to decrypt a message. This method is called the "Diffie-Hellman key exchange". How this method works is as follows:
+    1. Both sender and receiver generate a key pair, so there's 4 keys in total
+    2. The sender and receiver both share their **public** key over the public channel.
+    3. Afterwards, the partner's public key and the personal private key are merged, to make a single "secret" key. This key stays hidden from the publi channel, but is the same for both receiver and sender.
+    4. Using the "secret" key, the message that will be send can be both encrypted and decrypt.
+
+![Diffie-Hellman explanation](../00_includes/SEC-04/SS_DeffieHellman.png)
