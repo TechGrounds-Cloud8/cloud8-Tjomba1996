@@ -2,13 +2,10 @@
 Everything in the cloud has been virtualized, so when it comes to infrastructure, it is all virtual. However, the physical locations of one's servers, will certainly play an important roll. So deciding on what location is best, is crucial.
 
 ## Key terminology
-- Azure Region = Set of datacenters deployed within an interval-defined perimeter and connected through a dedicated regional low-latency network
-    - **Foundational** = Available in all Recommended and Alternate regions or within 90 days of a new foundational service becoming generally available.
-    - **Mainstream** = Available in all recommended regions within 90 days of the region general availability; demand-driven in alternate regions (many are already deployed into a large subset of Alternate regions).
-    - **Specialized** = Targeted service offerings that are usually industry-focused or backed by customized hardware. Demand-driven availability across regions (many are already deployed into a large subset of Recommended regions).
-- Azure Availability Zone = Unique physical locations within an **Azure region** that has it's own power, cooling and networking. This acts as an backup server, to protect applications and data from datacenter failures.
-- Azure Region Pair = Relationship between 2 **Azure Regions** within the sam geographic region for disaster recovery purposes. In case of a disaster, services will automatically failover to the secondary region.
-- Latency = the delay before a transfer of data begins following an instruction for its transfer
+- **Azure Region** = Set of datacenters deployed within an interval-defined perimeter and connected through a dedicated regional low-latency network
+- **Azure Availability Zone** = Unique physical locations within an **Azure region** that has it's own power, cooling and networking. This acts as an backup server, to protect applications and data from datacenter failures.
+- **Azure Region Pair** = Relationship between 2 **Azure Regions** within the sam geographic region for disaster recovery purposes. In case of a disaster, services will automatically failover to the secondary region.
+- **Latency** = the delay before a transfer of data begins following an instruction for its transfer
 
 ## Exercise
 - What is an Azure Region?
@@ -33,8 +30,8 @@ Everything in the cloud has been virtualized, so when it comes to infrastructure
 For definitions, see **Key Terminology**.
 
 There's a few things to consider, when choosing a region. The following list will show most of these considerations:
-- Data Export Compliance: The owner of the data center is important, as certain corporations(Microsoft, Amazone, Google) are US based, and follow the US laws. This allows them to force set corporations to hand over data.
-- Service Availability: Simply put, not all Azure services are in all available regions.
-- Performance: Latency is the most prominent way to measure performace, when one is talking about a cloud environment. Lower is better, and generally this is achieved by locating your region closed to wherever one is operating.
-- Cost: Cost of services differs from region to region, so when performance is not an issue, one might simply go for the cheapest(most times that is USA).
-- Redundancy: To increase reliability, one might want to see what options a certain region has regarding redudancy. So one region might have more availability regions.
+- **Data Export Compliance**: The owner of the data center is important, as certain corporations(Microsoft, Amazone, Google) are US based, and follow the US laws. This allows them to force set corporations to hand over data.
+- **Service Availability**: Simply put, not all Azure services are in all available regions.
+- **Performance**: Latency is the most prominent way to measure performace, when one is talking about a cloud environment. Lower is better, and generally this is achieved by locating your region closed to wherever one is operating.
+- **Cost**: Cost of services differs from region to region, so when performance is not an issue, one might simply go for the cheapest(most times that is USA).
+- **Redundancy**: To increase reliability, one might want to see what options a certain region has regarding redudancy. So one region might have more availability regions.
