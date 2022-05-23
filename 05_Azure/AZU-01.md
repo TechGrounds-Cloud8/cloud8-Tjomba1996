@@ -37,4 +37,4 @@ There's a few things to consider, when choosing a region. The following list wil
 - Service Availability: Simply put, not all Azure services are in all available regions.
 - Performance: Latency is the most prominent way to measure performace, when one is talking about a cloud environment. Lower is better, and generally this is achieved by locating your region closed to wherever one is operating.
 - Cost: Cost of services differs from region to region, so when performance is not an issue, one might simply go for the cheapest(most times that is USA).
-- Redundancy: To increase reliability, one might want to 
+- Redundancy: To increase reliability, one might want to see what options a certain region has regarding redudancy. So one region might have more availability regions.
