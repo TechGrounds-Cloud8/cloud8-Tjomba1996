@@ -33,6 +33,7 @@ Study the following topics:
     - **CAPEX** are investment expenses, to allow the business to grow
 
 - To add an alert in **Azure**, navigate to "Cost management", then "Cost alerts" and add anomaly alert, so one can get a notification when an anomaly occurs.
+
 ![Alert](../00_includes/05_Azure/AZU-02/SS_Alert.png)
 
 - To see your expenses regarding the Azure environment, there's a few tools at one's disposal. Most of these can be found in the "Cost management" tab mentioned earlier.
