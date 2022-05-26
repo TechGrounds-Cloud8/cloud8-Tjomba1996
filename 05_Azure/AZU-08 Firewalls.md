@@ -42,3 +42,7 @@ server.
 **Translated port** = Port for incoming traffic of the VM.
 
 ![NAT rule](../00_includes/05_Azure/AZU-08/SS_NAT_rule.png)
+
+- To prove that the Firewall is working, we connect to the VM, using the Public IP of the Firewall(40.118.88.188), which routes us to the Webpage.
+
+![Webpage](../00_includes/05_Azure/AZU-08/SS_Webpage.png)
