@@ -2,7 +2,7 @@
 As the data in a Storage account can be accessed through any HTTP/HTTPS connection, it needs to have the proper permissions, so only the right entities can access the data.
 
 ## Key terminology
-- BLOB = Binary Large Object; Type of storage that allows the storage of multimedia objects on a database.
+- **BLOB** = Binary Large Object; Type of storage that allows the storage of multimedia objects on a database.
 
 ## Exercise
 - Create an Azure Storage Account. Make sure only you have access to the data.
