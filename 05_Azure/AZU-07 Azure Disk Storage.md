@@ -27,6 +27,10 @@
 [How to mount?(video)](https://www.youtube.com/watch?v=xwZfFfMTW9A)
 
 ### Overcome challenges
+- Learned how to make a Disk
+- Learned to make a snapshot and use this to make another Disk
+- Had to see if a shared disk, shares actively. Was not able to see the file on the second machine.
+- Having trouble with mounting the copied Disk to the second machine 
 
 ### Results
 - Created 2 Ubuntu VM's and made sure they were running.
@@ -44,5 +48,4 @@
 
 - To make a new Disk using this snapshot, one can navigate to the snapshot created earlier and create a new Disk using the Snapshot as a base.
 
-![](../00_includes/05_Azure/AZU-07/SS_SnapshotCopy.png)
-
+![Snapshot](../00_includes/05_Azure/AZU-07/SS_SnapshotCopy.png)
