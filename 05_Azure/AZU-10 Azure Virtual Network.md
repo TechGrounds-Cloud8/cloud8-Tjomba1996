@@ -8,13 +8,13 @@ VM's, Web Apps and databases need a way to communicate with eachother, users on 
 ## Exercise 1
 - Create a VNet with the following specs:
 
-    Region: West Europe
+        Region: West Europe
 
-    Name: Lab-VNet
+        Name: Lab-VNet
 
-    IP range: 10.0.0.0/16
+        IP range: 10.0.0.0/16
 
-    - Requirements for subnet 1:
+- Requirements for subnet 1:
 
             Name: Subnet-1
 
@@ -22,7 +22,7 @@ VM's, Web Apps and databases need a way to communicate with eachother, users on 
 
             No connection to the internet
 
-    - Requirements for subnet 2:
+- Requirements for subnet 2:
 
             Name: Subnet-2
 
