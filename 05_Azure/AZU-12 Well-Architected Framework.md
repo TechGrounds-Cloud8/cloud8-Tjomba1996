@@ -185,7 +185,7 @@ First of all, Azure Advisor analyzes your configurations and usage telemetry and
 - **Azure Monitor:** Azure Monitor is a powerful reporting and analytics tool. It maximizes the availability and performance of your applications by collecting, analyzing, and acting on telemetry from your cloud and on-premises environments. It helps you understand how your applications are performing and proactively identifies issues affecting them and the resources they depend on.
 - **Network Watcher:** Network Watcher provides you the ability to diagnose your most common VPN Gateway and Connections issues. Allowing you, not only, to identify the issue but also to use the detailed logs created to help further investigate.
 
-**Security**
+### **Security**
 
 - **Microsoft Defender for Cloud:** Defender for Cloud offers security alerts that are powered by Microsoft Threat Intelligence. It also includes a range of advanced, intelligent, protections for your workloads. The workload protections are provided through Microsoft Defender plans specific to the types of resources in your subscriptions.
 - **Application Gateway:** Azure Application Gateway is a web traffic load balancer that enables you to manage traffic to your web applications. Traditional load balancers operate at the transport layer (OSI layer 4 - TCP and UDP) and route traffic based on source IP address and port, to a destination IP address and port.
@@ -193,7 +193,8 @@ First of all, Azure Advisor analyzes your configurations and usage telemetry and
 - **Key Vault:** Azure Key Vault is a cloud service that provides a secure store for secrets. You can securely store keys, passwords, certificates, and other secrets.
 - **Azure Information Protection:** Azure Information Protection (AIP) is a cloud-based solution that enables organizations to discover, classify, and protect documents and emails by applying labels to content.
 
-**Cost Optimization**
+### **Cost Optimization**
+
 - **Microsoft Cost Management:** This services enables you to monitore and analyze all the expenditures. This also enables you to set alerts and allocate budgets to teams.
 - **Azure Pricing Calculator:** Helps you calculate your estimated hourly or monthly costs using Azure.
 - **TCO Calculator:** This calculator compares an architecture on premise with a comparable solution in the cloud, to give you an insights, as to what the benefits would be when you transition.
