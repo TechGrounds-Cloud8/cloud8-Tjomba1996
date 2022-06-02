@@ -50,6 +50,8 @@ When dealing with a "spiky" workload, you can make use of a VM scale set. This c
 
 [How to add Load Balancer to VM Scale set from start to finish](https://docs.microsoft.com/en-us/azure/load-balancer/tutorial-add-lb-existing-scale-set-portal)
 
+[Stress tester](https://linuxhint.com/useful_linux_stress_test_benchmark_cpu_perf/)
+
 ### Overcome challenges
 - Learned how to set up a VM Scale set
 
