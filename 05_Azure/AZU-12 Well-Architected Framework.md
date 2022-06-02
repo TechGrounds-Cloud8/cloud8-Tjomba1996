@@ -175,11 +175,10 @@ Operational Excellence design principles:
 - **Invest in capacity planning:** Plan for fluctuation in expected load that can occur because of world events. Ensure that the application can scale to both expected an unexpected workload.
 
 ## **Implementation of "Crops" using services**
+
 First of all, Azure Advisor analyzes your configurations and usage telemetry and offers personalized recommendations to help optimize your resources for all 5 of the pillars. You can take a step deeper, and use Azure Well-architected review to get more specific options and recommendations on your current architecture.
 
 ### **Reliability**
-
-There are a few services for Reliability specific:
 
 - **Azure Chaos Studio:** This service uses chaos engineering to measure understand and imprive your cloud application.
 - **Azure Service Health:** Service Health provides you with a customizable dashboard which tracks the health of your Azure services in the regions where you use them. You can use this to set up alerts which notify you when service issues affect you, before they happen.
@@ -188,14 +187,13 @@ There are a few services for Reliability specific:
 
 **Security**
 
-There next few services are specifically for Security:
 - **Microsoft Defender for Cloud:** Defender for Cloud offers security alerts that are powered by Microsoft Threat Intelligence. It also includes a range of advanced, intelligent, protections for your workloads. The workload protections are provided through Microsoft Defender plans specific to the types of resources in your subscriptions.
 - **Application Gateway:** Azure Application Gateway is a web traffic load balancer that enables you to manage traffic to your web applications. Traditional load balancers operate at the transport layer (OSI layer 4 - TCP and UDP) and route traffic based on source IP address and port, to a destination IP address and port.
 - **Azure DDoS Protection:** DDoS Protection enables you to protect your Azure resources from denial of service (DoS) attacks with always-on monitoring and automatic network attack mitigation. There is no upfront commitment, and your total cost scales with your cloud deployment.
 - **Key Vault:** Azure Key Vault is a cloud service that provides a secure store for secrets. You can securely store keys, passwords, certificates, and other secrets.
 - **Azure Information Protection:** Azure Information Protection (AIP) is a cloud-based solution that enables organizations to discover, classify, and protect documents and emails by applying labels to content.
 
-**Cost Optimization:**
+**Cost Optimization**
 - **Microsoft Cost Management:** This services enables you to monitore and analyze all the expenditures. This also enables you to set alerts and allocate budgets to teams.
 - **Azure Pricing Calculator:** Helps you calculate your estimated hourly or monthly costs using Azure.
 - **TCO Calculator:** This calculator compares an architecture on premise with a comparable solution in the cloud, to give you an insights, as to what the benefits would be when you transition.
