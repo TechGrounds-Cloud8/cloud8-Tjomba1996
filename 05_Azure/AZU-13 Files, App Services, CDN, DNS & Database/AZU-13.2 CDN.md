@@ -37,6 +37,6 @@ There's also the fact that this network can give very valuable insights, in the 
 ## Comparison
 For a more detailed comparison between all the CDN providers follow [this link](https://cdncomparison.com/).
 
-The main 2 providers for CDN are Azure's CDN and AWS's Cloudfront. Between these two there are some minor differences, like Cloudflare doesn't support "No charges for Requests", which Azure does support. Cloudfront is a bit cheaper, but all together not that different.
+The main 2 providers for CDN are Azure's CDN and AWS's Cloudfront. Between these two there are some minor differences, like Cloudfront doesn't support "No charges for Requests", which Azure does support. Cloudfront is a bit cheaper, but all together not that different.
 
 Some bigger changes become apparent when we compare Azure to the smaller providers. We see that the amount of POP's is very noticable. This impacts the effectiveness of the CDN, depending on your location.
