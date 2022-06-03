@@ -1,10 +1,14 @@
 # Azure Files
+One of the key benefits of the cloud is the fact that data can be accessed from multiple location/devices. How and where data is stored, can be done with different services. There are some differences however, so depending on your preference, one solution might be better than another.
 
 ## Key terminology
 - SMB = Server Message Block; Protocol that allows apps on a machine to read/write to files and request services from server programs in a computer network.
 - NFS = Network File System; Protocol that allows a user on a client computer to access files over a computer network much like local storage is accessed.
 
 ## Exercise
+- Study Azure Files
+- Know how Azure Files works
+- Compare Azure Files to similar services and discover their differences
 
 ### Sources
 [Azure files](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-introduction)
@@ -25,11 +29,12 @@
 ### Overcome challenges
 - Learned what Azure Files is used for
 - Learned how to use Azure Files
+- Learned key differences between solutions similar to Azure Files
 
 ### Results
 
 ## What is Azure Files?
-Azure Files offers fully managed file shares in the cloud that are accessible via SMB or NFS. It allows you to create shareable storage
+Azure Files offers fully managed file shares in the cloud that are accessible via SMB or NFS. It allows you to create shareable storage, that can be accessed from different computers.
 
 ## Why should you use Azure Files?
 
