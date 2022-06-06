@@ -19,6 +19,10 @@ When talking about databases there are two main categories. There's relational a
 
 [Relational- and non-Relational Database](https://www.ibm.com/cloud/learn/relational-databases)
 
+[Different Databases(youtube)](https://www.youtube.com/watch?v=W2Z7fbCLSTw
+)
+
+
 [Query](https://www.techopedia.com/definition/5736/query)
 
 [SQL](https://www.w3schools.com/sql/sql_intro.asp)
@@ -38,6 +42,8 @@ Azure Database
 One of the key benefits of using Azure Database is that is belongs to a family of services, all under Azure SQL. This includes 4 different types of SQL Databases, Azure SQL Managed Instance and SQL Server on Azure VM's. This promotes a very broad toolbox, to tackle the issue of organizing and using a SQL Database.
 
 ## Comparison
+[This video](https://www.youtube.com/watch?v=W2Z7fbCLSTw
+) will explain the different kinds of Databases, as there are quite a few to choose from. We will be comparing the more similar solutions to Azure Databases. 
 
 ## How do you use Azure Database?
 To demonstrate how to use an Azure SQL Database, we use [this tutorial](https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal).
