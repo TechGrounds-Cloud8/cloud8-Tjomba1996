@@ -19,6 +19,7 @@ While moving to the cloud initially, can be a tasking job to facilitate, once in
 
 ### Overcome challenges
 - Got a better understanding on Containers
+- Learned what roll Docker has
 - Learned about Kubernetes
 
 ### Results
