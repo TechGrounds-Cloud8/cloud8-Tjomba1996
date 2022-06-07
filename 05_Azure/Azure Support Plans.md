@@ -1,8 +1,8 @@
 # Azure Support Plans
-
+When transitioning to the cloud, it can be a daunting task. Luckily, Azure has provided a services that helps you in setting up or managing an architecture in the cloud. The services has a different tiers, so that you can decide what level of support service fits you or your company best.
 
 ## Key terminology
-- **ASP** = Azure Support Plan; 
+- **ASP** = Azure Support Plan; Support Service that can help one with setting up or manage/improve an architecture.
 
 ## Exercise
 - Study Azure Support Plans
@@ -11,10 +11,10 @@
 ### Sources
 [Azure Support Plans](https://azure.microsoft.com/en-us/support/plans/)
 
-
-
 ### Overcome challenges
-
+- Learned about ASP
+- Learned what tiers are available and what they offer
+- Learned about AWS's similar support plan
 
 ### Results
 
