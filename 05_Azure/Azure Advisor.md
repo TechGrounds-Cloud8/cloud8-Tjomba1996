@@ -30,4 +30,4 @@ Especially for someone who is new to Azure, this can be a very useful tool, as i
 ## **Comparison**
 
 ### Azure Advisor VS Trusted Advisor
-AWS can provide a similar services, though this service is behind a paywall and a bit more barebone. So when you're just starting out, the threshold of moving to the cloud without any aid might be more daunting, albeit very minor.
+AWS can provide a similar services, though this service is behind a paywall and a bit more barebone. So when you're just starting out, the threshold of moving to the cloud solution of AWS without any aid, might be more daunting, albeit very minor.
