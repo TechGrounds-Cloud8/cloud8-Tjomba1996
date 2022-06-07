@@ -11,6 +11,8 @@ When transitioning to the cloud, it can be a daunting task. Luckily, Azure has p
 ### Sources
 [Azure Support Plans](https://azure.microsoft.com/en-us/support/plans/)
 
+[AWS Support Plans](https://aws.amazon.com/premiumsupport/plans/)
+
 ### Overcome challenges
 - Learned about ASP
 - Learned what tiers are available and what they offer
