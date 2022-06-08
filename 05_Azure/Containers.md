@@ -3,7 +3,7 @@ While moving to the cloud initially, can be a tasking job to facilitate, once in
 
 ## Key terminology
 - **ACI** = Azure Container Instances; 
-- **AKS** = Azure Kubernetes Service; Orchestration software to help how/where containers run
+- **AKS** = Azure Kubernetes Service; Orchestration software to help how/where containers run.
 
 ## Exercise
 - Study Azure Containers
@@ -39,5 +39,5 @@ The main difference is that an individual VM virtualises the underlying hardware
 
 ![Docker VS VM's Schematic](../00_includes/05_Azure/Containers/SS_DockerSchematic.png)
 
-### **ACI VS AKS**
+### **ACI & AKS**
 This is not so much a comparison, in which you should pick one over the other. These two services seems to work well together. While ACI can be used for containerization, Azure Kubernetes Service allows you to easily automate this process. It helps with networking, load-balancing, security, and scaling across all Kubernetes nodes which runs your containers.

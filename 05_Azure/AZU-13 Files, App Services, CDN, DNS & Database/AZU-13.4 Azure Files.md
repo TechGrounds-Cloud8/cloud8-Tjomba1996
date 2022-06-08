@@ -1,5 +1,5 @@
 # Azure Files
-One of the key benefits of the cloud is the fact that data can be accessed from multiple location/devices. How and where data is stored, can be done with different services. There are some differences however, so depending on your preference, one solution might be better than another.
+One of the key benefits of the cloud is the fact that data can be accessed from multiple location/devices. How and where data is stored, can be done with different services. There are some differences however, so depending on your requirements, one solution might be better than another.
 
 ## Key terminology
 - SMB = Server Message Block; Protocol that allows apps on a machine to read/write to files and request services from server programs in a computer network.
