@@ -16,7 +16,7 @@ Trying to remember everything you have done to the smallest detail is an impossi
 ### Results
 
 ## **What is Azure Activity Log?**
-Azure Activity Log is a logging platform, that allows you to track Subscription-level events. Information includes:
+Azure Activity Log is a logging platform, that allows you to track Subscription-level events. information includes:
 - Operation name
 - Status: Succeeded or Failed
 - Time(stamp) of alteration/creation
