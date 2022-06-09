@@ -27,6 +27,6 @@ When making a resource group for example, we can use the following features with
 - **Diagnostic settings:** Needs to be enabled, but allows 
 - **Logs:** Allows you to run some preset query to extract specific data from the logs
 - **Advisor Recommendations:** Gives you the recommendations based on best practices of Azure.
-- **Workbooks:** Allows the management of workbooks and templates
+- **Workbooks:** Allows the management of workbooks and templates.
 
 ![Azure Monitor VM](../00_includes/05_Azure/Azure%20Monitor/SS_MonitorVM.png)
