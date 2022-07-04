@@ -20,7 +20,7 @@ The ASP(Azure Support Plan) is provided for those who need help managing/creatin
 ### Results
 
 ## **What is Azure Advisor?**
-As mentioned before, Azure Advisor is a free services in the Azure Support Plan. Azure Advisor can analyze your configurations, see if they are being used properly, and in they aren't, give you actionable recommendations to improve this for the "Crops" pillars. It does so by referring to relevant best practices.
+As mentioned before, Azure Advisor is a free services in the Azure Support Plan. Azure Advisor can analyse your configurations, see if they are being used properly, and if they aren't, give you actionable recommendations to improve this for the "Crops" pillars. It does so by referring to relevant best practices.
 
 ## **Why should you use Azure Advisor?**
 Especially for someone who is new to Azure, this can be a very useful tool, as it can give you recommendations on best practices. This enables you to get started and learn as you go, as you can get a review of each iteration of your architecture. This can also be useful when dealing with a larger organisation, as it can provide you with new solutions to old problems and it can be done automatically at scale, so the effectiveness scales with your organisation.
@@ -30,4 +30,4 @@ Especially for someone who is new to Azure, this can be a very useful tool, as i
 ## **Comparison**
 
 ### Azure Advisor VS Trusted Advisor
-AWS can provide a similar services, though this service is behind a paywall and a bit more barebone. So when you're just starting out, the threshold of moving to the cloud solution of AWS without any aid, might be more daunting, albeit very minor.
+AWS can provide a similar service, though this service is behind a paywall and a bit more barebone. So when you're just starting out, the threshold of moving to the cloud solution of AWS without any aid, might be more daunting, albeit very minor.

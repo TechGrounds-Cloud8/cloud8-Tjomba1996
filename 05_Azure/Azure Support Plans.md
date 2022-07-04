@@ -24,7 +24,9 @@ When transitioning to the cloud, it can be a daunting task. Luckily, Azure has p
 Azure provides additional services depending on what Support Plan you choose. Some organisations need some more guidance, to optimise their use of the cloud. Azure provides 4 different tier of support plan:
 - **Basic**: Free, provides basic services to monitor expenditures
 - **Developer**: Around €27,- a month, provides third party software for support, and extra support on business hours.
-- **Standard**: Around €93,- a month, provides 24/7 technical support
+- **Standard**: Around €93,- a month, provides 24/7 technical support.
+- **Professional direct**: Around €930,- a month, provides personalised support from ProDirect delivery managers.
+
 Below is a schematic as to what you can expect from each tier of support plan.
 
 ![](../00_includes/05_Azure/Azure%20Support%20Plans/SS_Tiers.png)
