@@ -11,4 +11,4 @@ info = {                                                                        
 
 with open("06_Python/08_Key-value pairs.py/data.csv", 'a', newline= "") as file:         ## Opening the data.csv file and giving append permissions.
     writer = csv.DictWriter(file, fieldnames = info.keys())                              ## 
-    writer.writerow(info)
+    writer.writerow(info)                                                                ## Writes every input info to a new line.
