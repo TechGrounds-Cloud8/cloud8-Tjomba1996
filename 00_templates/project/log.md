@@ -2,16 +2,48 @@
 
 ## One Sentence summary of the day
 
-## Challanges
+## Challenges
 
 ## Solutions
 
 ____
 
-# Log [date-yesterday]
+# Log [date]
 
 ## One Sentence summary of the day
 
-## Challanges
+## Challenges
 
 ## Solutions
+
+____
+
+# Log [date]
+
+## One Sentence summary of the day
+
+## Challenges
+
+## Solutions
+
+____
+
+# Log [date]
+
+## One Sentence summary of the day
+
+## Challenges
+
+## Solutions
+
+____
+
+# Log [date]
+
+## One Sentence summary of the day
+
+## Challenges
+
+## Solutions
+
+____
