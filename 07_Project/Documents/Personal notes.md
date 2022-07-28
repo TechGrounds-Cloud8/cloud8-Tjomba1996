@@ -10,3 +10,10 @@
 
 ![Architecture](../Includes/Architecture_On-prem.png)
 
+[Modules](https://www.youtube.com/watch?v=c-fbZlS1L8M)
+
+[Scopes](https://ochzhen.com/blog/reference-new-or-existing-resource-in-azure-bicep)
+
+[peering](https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.network/existing-vnet-to-vnet-peering/main.bicep
+)
+

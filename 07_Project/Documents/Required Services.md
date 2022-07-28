@@ -3,13 +3,13 @@
 Judging from the [existing architecture](../Includes/Architecture_On-prem.png), the following services are going to be required:
 
 - Subscription
+- Azure Active Directory
 - Azure Key Vault
 - Storage Account
-- PostDeploymentScripts
+    - BLOB storage
 - Azure Virtual Network(VNet)
 - Network Security Group(NSG)
-- Webserver(VM with apache2?)
-- Management server(ubuntu?)
-- Peer-to-Peer connection(?)
-- Recovery service vault(DR?)
-- 
+- Webserver(linux-VM with apache2?)
+- Management server(windows)
+- VNET-peering
+- Recovery service vault
