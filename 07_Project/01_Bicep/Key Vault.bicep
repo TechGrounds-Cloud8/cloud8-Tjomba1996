@@ -1,5 +1,5 @@
 param location string = resourceGroup().location
-param key_vault_name string = 'key-vault-1-27-07-202123'
+param key_vault_name string = 'key-vault2-1-29-07-2022'
 
 var tenantID = subscription().tenantId
 var objectID = 'f9a8410d-0830-4f7f-8af5-5b31d1f0d1da'

@@ -1,4 +1,4 @@
-param storageAccountName string = 'sa654651384613881'
+param storageAccountName string = 'postdeployment29072022'
 param containerName string = 'postdeploymentscripts'
 param location string = resourceGroup().location
 

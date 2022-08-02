@@ -22,18 +22,18 @@ var webserverName = 'linux-webserver'
 var nicName = 'nic-1'
 var virtualNetworkName = 'virtualNetwork1'
 var subnet1Name = 'subnet-1'
-var publicIPAddressName = 'publicIp'
+var publicIPAddressName = 'publicIpWebserver'
 var diagStorageAccountName = 'diags1${uniqueString(resourceGroup().id)}'
 var networkSecurityGroupName = 'NSG1'
 
-var vaultName = 'rsv-27-07-2022'
+var vaultName = 'backup-vault'
 var backupFabric = 'Azure'
 var protectionContainer = 'iaasvmcontainer;iaasvmcontainerv2;${resourceGroup().name};${webserverName}'
 var protectedItem = 'vm;iaasvmcontainerv2;${resourceGroup().name};${webserverName}'
 
 
-// This is the virtual machine that you're building.
-resource vm 'Microsoft.Compute/virtualMachines@2022-03-01' = {
+// Creates the VM that holds the webserver.
+resource VirtualMachine 'Microsoft.Compute/virtualMachines@2022-03-01' = {
   name: webserverName
   location: location
   properties: {
@@ -59,7 +59,7 @@ resource vm 'Microsoft.Compute/virtualMachines@2022-03-01' = {
     networkProfile: {
       networkInterfaces: [
         {
-          id: nic.id
+          id: NIC.id
         }
       ]
     }
@@ -87,7 +87,6 @@ resource rRecoveryServiceVaultBackupPolicy 'Microsoft.RecoveryServices/vaults/ba
   name: '${recoveryServicesVault.name}/rsv-backup-policy'
   properties: {
     backupManagementType: 'AzureIaasVM'
-    instantRpRetentionRangeInDays: 5
     timeZone: 'Eastern Standard Time'
     protectedItemsCount: 0
     schedulePolicy: {
@@ -118,7 +117,7 @@ resource vaultName_backupFabric_protectionContainer_protectedItem 'Microsoft.Rec
   properties: {
     protectedItemType: 'Microsoft.Compute/virtualMachines'
     policyId: rRecoveryServiceVaultBackupPolicy.id
-    sourceResourceId: vm.id
+    sourceResourceId: VirtualMachine.id
   }
 } 
 
@@ -143,8 +142,8 @@ resource vnet 'Microsoft.Network/virtualNetworks@2020-06-01' = {
   }
 }
 
-// This will be your Primary NIC
-resource nic 'Microsoft.Network/networkInterfaces@2020-06-01' = {
+// This creates a NIC for the VM.
+resource NIC 'Microsoft.Network/networkInterfaces@2020-06-01' = {
   name: nicName
   location: location
   properties: {
@@ -157,20 +156,20 @@ resource nic 'Microsoft.Network/networkInterfaces@2020-06-01' = {
           }
           privateIPAllocationMethod: 'Dynamic'
           publicIPAddress: {
-            id: pip.id
+            id: publicIPwebserver.id
           }
         }
       }
     ]
     networkSecurityGroup: {
-      id: nsg.id
+      id: NSG.id
     }
   }
 }
 
 
-// Public IP for your Primary NIC
-resource pip 'Microsoft.Network/publicIPAddresses@2020-06-01' = {
+// Public IP for your NIC.
+resource publicIPwebserver 'Microsoft.Network/publicIPAddresses@2020-06-01' = {
   name: publicIPAddressName
   location: location
   properties: {
@@ -178,8 +177,8 @@ resource pip 'Microsoft.Network/publicIPAddresses@2020-06-01' = {
   }
 }
 
-// Network Security Group (NSG) for your Primary NIC
-resource nsg 'Microsoft.Network/networkSecurityGroups@2020-06-01' = {
+// Network Security Group (NSG) for your Primary NIC.
+resource NSG 'Microsoft.Network/networkSecurityGroups@2020-06-01' = {
   name: networkSecurityGroupName
   location: location
   properties: {
@@ -227,6 +226,7 @@ resource nsg 'Microsoft.Network/networkSecurityGroups@2020-06-01' = {
   }
 }
 
+// Creates a storage account for diagnostics.
 resource diagsAccount1 'Microsoft.Storage/storageAccounts@2019-06-01' = {
   name: diagStorageAccountName
   location: location

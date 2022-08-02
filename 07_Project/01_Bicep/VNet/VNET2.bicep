@@ -18,14 +18,17 @@ param storageAccountType string = 'Standard_LRS'
 @description('Location for all resources.')
 param location string = resourceGroup().location
 
+param MyIP string = '213.127.77.157'
+
 var managementServerName = 'ManagementVM'
 var nicName2 = 'nic-2-management'
 var virtualNetworkName = 'management-virtual-network'
 var VNET2subnet1Name = 'subnet-2-management'
 var publicIPAddressName = 'publicIp-management'
-var diagStorageAccountName = 'diags2${uniqueString(resourceGroup().id)}'
+var diagStorageAccountName = 'mdiags2${uniqueString(resourceGroup().id)}'
 var networkSecurityGroupName = 'NSG2-management'
 
+// Imports the VNET with the webserver.
 module VNet1 'VNET1.bicep' = {
   name: 'VNet1'
   params: {
@@ -35,6 +38,7 @@ module VNet1 'VNET1.bicep' = {
   }
 }
 
+// Creates a storage account for the diagnotics of the VM.
 resource diagsAccount2 'Microsoft.Storage/storageAccounts@2019-06-01' = {
   name: diagStorageAccountName
   location: location
@@ -43,7 +47,6 @@ resource diagsAccount2 'Microsoft.Storage/storageAccounts@2019-06-01' = {
   }
   kind: 'StorageV2'
 }
-
 
 // This is the virtual machine.
 resource vm 'Microsoft.Compute/virtualMachines@2020-06-01' = {
@@ -78,7 +81,7 @@ resource vm 'Microsoft.Compute/virtualMachines@2020-06-01' = {
           properties: {
             primary: true
           }
-          id: nic2.id
+          id: NIC2.id
         }
       ]
     }
@@ -90,7 +93,6 @@ resource vm 'Microsoft.Compute/virtualMachines@2020-06-01' = {
     }
   }
 }
-
 
 // This will build a Virtual Network.
 resource vnet 'Microsoft.Network/virtualNetworks@2020-06-01' = {
@@ -113,8 +115,8 @@ resource vnet 'Microsoft.Network/virtualNetworks@2020-06-01' = {
   }
 }
 
-// This will be your Primary NIC
-resource nic2 'Microsoft.Network/networkInterfaces@2020-06-01' = {
+// Creates a Network Interface (card).
+resource NIC2 'Microsoft.Network/networkInterfaces@2020-06-01' = {
   name: nicName2
   location: location
   properties: {
@@ -127,20 +129,19 @@ resource nic2 'Microsoft.Network/networkInterfaces@2020-06-01' = {
           }
           privateIPAllocationMethod: 'Dynamic'
           publicIPAddress: {
-            id: pip.id
+            id: publicIPmanagement.id
           }
         }
       }
     ]
     networkSecurityGroup: {
-      id: nsg.id
+      id: NSG.id
     }
   }
 }
 
-
-// Public IP for your Primary NIC
-resource pip 'Microsoft.Network/publicIPAddresses@2020-06-01' = {
+// Creates a Public IP for the NIC.
+resource publicIPmanagement 'Microsoft.Network/publicIPAddresses@2020-06-01' = {
   name: publicIPAddressName
   location: location
   properties: {
@@ -149,7 +150,7 @@ resource pip 'Microsoft.Network/publicIPAddresses@2020-06-01' = {
 }
 
 // Network Security Group (NSG) for your Primary NIC
-resource nsg 'Microsoft.Network/networkSecurityGroups@2020-06-01' = {
+resource NSG 'Microsoft.Network/networkSecurityGroups@2020-06-01' = {
   name: networkSecurityGroupName
   location: location
   properties: {
@@ -183,4 +184,3 @@ resource nsg 'Microsoft.Network/networkSecurityGroups@2020-06-01' = {
     ]
   }
 }
-
