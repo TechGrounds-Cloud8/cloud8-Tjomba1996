@@ -1,4 +1,4 @@
-# **Requirements**
+# **Requirements for v1.0**
 
 A business is transfering from an on-prem architecture to a cloud solution. These are the hard requirements for the transfer:
 
@@ -11,10 +11,9 @@ A business is transfering from an on-prem architecture to a cloud solution. Thes
 - All subnets need firewall protection on subnet level
 - SSH or RDP connections with the webserver only allowed via the admin server.
 - Needs a storage solution for bootstrap/post-deployment scripts that can not be accessed by the public.
-- user data can be hardcoded, only if there's no security compromises.
-- Website data must be in blob storage.
 
 
 The following architecture is representation of the on-premises architecture:
 
 ![On prem Architecture](../Includes/Architecture_On-prem.png)
+

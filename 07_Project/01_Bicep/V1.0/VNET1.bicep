@@ -8,13 +8,6 @@ param adminUsername string
 @secure()
 param adminPassword string
 
-@description('Storage Account type for the VM and VM diagnostic storage')
-@allowed([
-  'Standard_LRS'
-  'Premium_LRS'
-])
-param storageAccountType string = 'Standard_LRS'
-
 @description('Location for all resources.')
 param location string = resourceGroup().location
 
@@ -23,14 +16,13 @@ var nicName = 'nic-1'
 var virtualNetworkName = 'virtualNetwork1'
 var subnet1Name = 'subnet-1'
 var publicIPAddressName = 'publicIpWebserver'
-var diagStorageAccountName = 'diags1${uniqueString(resourceGroup().id)}'
 var networkSecurityGroupName = 'NSG1'
+var osDiskType = 'Standard_LRS'
 
 var vaultName = 'backup-vault'
 var backupFabric = 'Azure'
 var protectionContainer = 'iaasvmcontainer;iaasvmcontainerv2;${resourceGroup().name};${webserverName}'
 var protectedItem = 'vm;iaasvmcontainerv2;${resourceGroup().name};${webserverName}'
-
 
 // Creates the VM that holds the webserver.
 resource VirtualMachine 'Microsoft.Compute/virtualMachines@2022-03-01' = {
@@ -54,6 +46,9 @@ resource VirtualMachine 'Microsoft.Compute/virtualMachines@2022-03-01' = {
       }
       osDisk: {
         createOption: 'FromImage'
+        managedDisk: {
+          storageAccountType: osDiskType
+        }
       }
     }
     networkProfile: {
@@ -62,12 +57,6 @@ resource VirtualMachine 'Microsoft.Compute/virtualMachines@2022-03-01' = {
           id: NIC.id
         }
       ]
-    }
-    diagnosticsProfile: {
-      bootDiagnostics: {
-        enabled: true
-        storageUri: diagsAccount1.properties.primaryEndpoints.blob
-      }
     }
     userData: loadFileAsBase64('UserData.sh')
   }
@@ -142,7 +131,7 @@ resource vnet 'Microsoft.Network/virtualNetworks@2020-06-01' = {
   }
 }
 
-// This creates a NIC for the VM.
+// This creates a Network Interface Card for the VM.
 resource NIC 'Microsoft.Network/networkInterfaces@2020-06-01' = {
   name: nicName
   location: location
@@ -166,7 +155,6 @@ resource NIC 'Microsoft.Network/networkInterfaces@2020-06-01' = {
     }
   }
 }
-
 
 // Public IP for your NIC.
 resource publicIPwebserver 'Microsoft.Network/publicIPAddresses@2020-06-01' = {
@@ -224,14 +212,4 @@ resource NSG 'Microsoft.Network/networkSecurityGroups@2020-06-01' = {
       }
     ]
   }
-}
-
-// Creates a storage account for diagnostics.
-resource diagsAccount1 'Microsoft.Storage/storageAccounts@2019-06-01' = {
-  name: diagStorageAccountName
-  location: location
-  sku: {
-    name: storageAccountType
-  }
-  kind: 'StorageV2'
 }

@@ -1,11 +1,11 @@
 @description('Set the local VNet name')
-param existingLocalVirtualNetworkName string = 'management-virtual-network'
+param existingLocalVirtualNetworkName string = 'Webserver-VNet'
 
 @description('Set the remote VNet name')
-param existingRemoteVirtualNetworkName string = 'virtualNetwork1'
+param existingRemoteVirtualNetworkName string = 'Management-VNet'
 
 @description('Sets the remote VNet Resource group')
-param existingRemoteVirtualNetworkResourceGroupName string = 'testRG'
+param existingRemoteVirtualNetworkResourceGroupName string = resourceGroup().name
 
 resource existingLocalVirtualNetworkName_peering_to_remote_vnet 'Microsoft.Network/virtualNetworks/virtualNetworkPeerings@2021-02-01' = {
   name: '${existingLocalVirtualNetworkName}/peering-to-remote-vnet'
@@ -19,5 +19,3 @@ resource existingLocalVirtualNetworkName_peering_to_remote_vnet 'Microsoft.Netwo
     }
   }
 }
-
-//https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.network/existing-vnet-to-vnet-peering/main.bicep

@@ -2,11 +2,11 @@
 param virtualMachineSize string = 'Standard_DS1_v2'
 
 @description('Default Admin username')
-param adminUsername string = 'Admin-123'
+param adminUsername string
 
 @description('Default Admin password')
 @secure()
-param adminPassword string = 'Admin-123'
+param adminPassword string
 
 @description('Storage Account type for the VM and VM diagnostic storage')
 @allowed([
@@ -18,35 +18,15 @@ param storageAccountType string = 'Standard_LRS'
 @description('Location for all resources.')
 param location string = resourceGroup().location
 
-param MyIP string = '213.127.77.157'
+param MyIP string = '212.187.35.53'
 
 var managementServerName = 'ManagementVM'
 var nicName2 = 'nic-2-management'
 var virtualNetworkName = 'management-virtual-network'
 var VNET2subnet1Name = 'subnet-2-management'
 var publicIPAddressName = 'publicIp-management'
-var diagStorageAccountName = 'mdiags2${uniqueString(resourceGroup().id)}'
 var networkSecurityGroupName = 'NSG2-management'
-
-// Imports the VNET with the webserver.
-module VNet1 'VNET1.bicep' = {
-  name: 'VNet1'
-  params: {
-    adminPassword: adminPassword
-    adminUsername: adminUsername
-    location: location
-  }
-}
-
-// Creates a storage account for the diagnotics of the VM.
-resource diagsAccount2 'Microsoft.Storage/storageAccounts@2019-06-01' = {
-  name: diagStorageAccountName
-  location: location
-  sku: {
-    name: storageAccountType
-  }
-  kind: 'StorageV2'
-}
+var osDiskType = 'Standard_LRS'
 
 // This is the virtual machine.
 resource vm 'Microsoft.Compute/virtualMachines@2020-06-01' = {
@@ -73,6 +53,9 @@ resource vm 'Microsoft.Compute/virtualMachines@2020-06-01' = {
       }
       osDisk: {
         createOption: 'FromImage'
+        managedDisk: {
+          storageAccountType: osDiskType
+        }
       }
     }
     networkProfile: {
@@ -84,12 +67,6 @@ resource vm 'Microsoft.Compute/virtualMachines@2020-06-01' = {
           id: NIC2.id
         }
       ]
-    }
-    diagnosticsProfile: {
-      bootDiagnostics: {
-        enabled: true
-        storageUri: diagsAccount2.properties.primaryEndpoints.blob
-      }
     }
   }
 }
@@ -159,7 +136,7 @@ resource NSG 'Microsoft.Network/networkSecurityGroups@2020-06-01' = {
         name: 'allow-rdp'
         properties: {
           priority: 1000
-          sourceAddressPrefix: '*'
+          sourceAddressPrefix: MyIP
           protocol: 'Tcp'
           destinationPortRange: '3389'
           access: 'Allow'
